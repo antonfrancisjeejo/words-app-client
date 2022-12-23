@@ -1,0 +1,91 @@
+.main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.sugContainer {
+  margin-left: 10px;
+}
+
+.sug {
+  margin: 0 5px;
+  margin-bottom: 10px;
+  color: #c3c9d0;
+  border-color: #49678a !important;
+}
+
+.sug:hover {
+  background: #344f6d;
+  cursor: pointer;
+}
+
+.sugContainer > div {
+  display: inline-flex;
+}
+
+.success_chip {
+  margin: 0 5px;
+  color: green;
+  border-color: green !important;
+}
+
+.chip {
+  margin-right: 8px;
+  color: #c3c9d0;
+  border-color: #49678a !important;
+}
+
+.table,
+.table thead,
+.table tbody,
+.table tr {
+  border: 1px solid #2b4f75;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+  background-color: #1e3a58;
+  border: 2px solid #035ebf;
+  margin-top: 20px;
+}
+
+.table th {
+  padding: 10px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.table td {
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.rowData {
+  cursor: pointer;
+}
+
+.rowData:hover {
+  background-color: #2e4f71;
+}
+
+.savedWords {
+  background-color: #1e3a58;
+  border: 2px solid #0b3e76;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.storedWord {
+  margin: 10px 5px;
+  color: #c3c9d0;
+  border-color: #49678a !important;
+}
